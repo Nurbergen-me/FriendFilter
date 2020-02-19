@@ -1,0 +1,127 @@
+body {
+    padding: 10px;
+    background: #999999;
+    font-size: 12px;
+}
+
+.row {
+    align-items: center;
+}
+
+h1 {
+    margin: 20px 0 20px 20px;
+    font-size: 16px;
+}
+
+.container__vk {
+    background: #fff;
+    max-width: 620px;
+    color: #4f4f4f;
+    border-radius: 7px;
+    margin: 0 auto;
+}
+
+.container__head {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background: #ff8663;
+    padding: 12px 14px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+
+.container__side {
+    width: 50%;
+}
+
+.list__group {
+    position: relative;
+}
+
+.container__search {
+    padding: 10px 15px;
+    background: #f0f0f0;
+}
+
+.container__search input {
+    height: 26px;
+    border-radius: 13px;
+    width: 100%;
+    border: none;
+    padding: 7px 14px;
+    color: #4f4f4f;
+    font-weight: bold;
+}
+
+.container__search input::placeholder {
+    color: #9f9f9f;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.side__name {
+    font-weight: bold;
+    padding: 10px 15px 3px;
+}
+
+.side__list {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 353px;
+}
+
+.container__end {
+    padding: 10px 15px;
+    background: #f0f0f0;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container__save {
+    border-radius: 7px;
+    background: #ff8663;
+    padding: 8px 15px;
+    color: #fff;
+    display: inline-block;
+}
+
+ul {
+    padding: 0;
+    border-radius: 4px;
+    background: #fff;
+}
+
+li {
+    list-style: none;
+    padding: 9px 15px 9px 30px;
+    border-top: 1px solid #e7e8ec;
+    width: 293.2px;
+}
+
+li:hover {
+    background: #f0f0f0;
+}
+
+.list__img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.list__icon {
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+#choosenSide .list__icon img {
+    transform: rotate(45deg);
+}
